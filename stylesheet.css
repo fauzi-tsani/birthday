@@ -1080,11 +1080,24 @@ audio {
 	bottom: -200px;
 	opacity: 0.6;
 	z-index: 99;
-	width: 10%;
-	height: 10%;
+	width: 4%;
+	height: 11%;
 	background-repeat: no-repeat no-repeat;
 	background-size: 100% 100%;
 }
+@media only screen and (max-width: 600px) {
+	.balloons {
+		position: fixed;
+		bottom: -200px;
+		opacity: 0.6;
+		z-index: 99;
+		width: 10%;
+		height: 10%;
+		background-repeat: no-repeat no-repeat;
+		background-size: 100% 100%;
+	}
+  }
+
 .balloons h2 {
 	text-transform: uppercase;
 	font-family: 'Signika', sans-serif;
